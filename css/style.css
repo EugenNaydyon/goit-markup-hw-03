@@ -45,13 +45,36 @@ body {
   color: var(--primery-text-color);
 }
 
-header {
+header,
+nav,
+.site-nav,
+.contact {
   display: flex;
+  align-items: center;
 }
 
-nav {
+.details {
   display: flex;
+  justify-content: center;
 }
+
+.team {
+  display: flex;
+  justify-content: center;
+}
+
+.whats-doing-img {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+/*nav {
+  display: flex;
+}*/
 
 h2 {
   font-weight: bold;
