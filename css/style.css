@@ -8,10 +8,57 @@
   --address-link-color: rgba(255, 255, 255, 0.6);
 }
 
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
 body {
   font-family: Roboto;
   background-color: var(--main-background-color);
   color: var(--primery-text-color);
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -179,14 +226,6 @@ h1 {
 }
 
 .doing {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
