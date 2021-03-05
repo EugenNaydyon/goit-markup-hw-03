@@ -47,13 +47,30 @@ body {
 
 header,
 nav,
-.site-nav,
-.contact {
+.site-nav {
   display: flex;
   align-items: center;
 }
 
-.details {
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.site-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site .details {
   display: flex;
   justify-content: center;
 }
@@ -116,6 +133,15 @@ h2 {
   text-decoration: none;
 }
 
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.tel {
+  margin-left: 50px;
+}
+
 .button-link {
   font-family: Roboto;
   color: var(--primery-text-color);
@@ -160,6 +186,7 @@ h2 {
   line-height: 1.2;
   color: var(--primery-text-color);
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .full-logo-footer {
@@ -216,6 +243,10 @@ h2 {
   line-height: 1.7;
   color: var(--address-link-color);
   text-decoration: none;
+}
+
+.mail {
+  margin-left: auto;
 }
 
 .address-link:hover,
