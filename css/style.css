@@ -189,22 +189,13 @@ h2 {
   margin-right: 93px;
 }
 
-.full-logo-footer {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  color: var(--main-background-color);
-  text-decoration: none;
-}
-
 .web-logo {
   color: var(--accent-text-color);
 }
 
 .bottom-part {
   background-color: var(--section-background-color);
+  height: 252px;
 }
 
 .examples h3 {
@@ -300,4 +291,45 @@ h1 {
 
 .footer-contact {
   font-style: normal;
+  display: block;
 }
+
+footer .container {
+  width: 1200px;
+  margin: 0 auto;
+  /*padding-left: 215px;
+  padding-right: 15px;*/
+  padding-top: 60px;
+  /*padding-bottom: 25px;*/
+}
+
+.full-logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-background-color);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.address-item:not(:last-child) {
+  display: block;
+  margin-bottom: 9px;
+}
+
+/*.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}*/ ;
