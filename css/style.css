@@ -66,6 +66,37 @@ header .container {
   align-items: center;
 }
 
+.hero-section {
+  height: 600px;
+  width: 1600px;
+  margin: 0 auto;
+  background-color: var(--section-background-color);
+}
+
+.main-title {
+  padding-top: 200px;
+  margin-bottom: 30px;
+}
+
+.hero-button-link {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-background-color);
+  background-color: var(--accent-text-color);
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 0;
+  border: none;
+}
+
 .site-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -75,23 +106,29 @@ header .container {
   justify-content: center;
 }
 
-.team {
-  display: flex;
-  justify-content: center;
+.section-doing {
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 61px;
 }
 
+.doing {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 66px;
+  margin-bottom: 49px;
+}
+
+.whats-doing-item {
+  display: block;
+}
 .whats-doing-img {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-
-.button {
-  display: flex;
-  justify-content: center;
-}
-/*nav {
-  display: flex;
-}*/
 
 h2 {
   font-weight: bold;
@@ -99,6 +136,59 @@ h2 {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 98px;
+}
+
+.team li {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team {
+  background-color: var(--button-background-color);
+  width: 1600px;
+  height: 648px;
+  margin: 0 auto;
+  margin-bottom: 61px;
+}
+
+.team {
+  margin-bottom: 37px;
+}
+
+.our-team-header {
+  padding-top: 144px;
+  margin-bottom: 57px;
+}
+
+.team .team-person h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team .team-person p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .list {
@@ -166,18 +256,6 @@ h2 {
   border-radius: 4px;
 }
 
-.hero-button-link {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--main-background-color);
-  background-color: var(--accent-text-color);
-  cursor: pointer;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-}
-
 .full-logo {
   font-family: Raleway;
   font-style: normal;
@@ -193,11 +271,6 @@ h2 {
   color: var(--accent-text-color);
 }
 
-.bottom-part {
-  background-color: var(--section-background-color);
-  height: 252px;
-}
-
 .examples h3 {
   font-weight: bold;
   font-size: 18px;
@@ -210,6 +283,18 @@ h2 {
   font-size: 16px;
   line-height: 1.8;
   color: var(--title-text-color);
+}
+
+.details {
+  display: flex;
+  width: 1170px;
+  height: 101px;
+  margin: 0 auto;
+  margin-top: 76px;
+}
+
+.details-items:not(:last-child) {
+  margin-right: 30px;
 }
 
 .details h3 {
@@ -256,10 +341,6 @@ h2 {
   text-decoration: none;
 }
 
-.hero-section {
-  background-color: var(--section-background-color);
-}
-
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -270,23 +351,11 @@ h1 {
   text-transform: uppercase;
 }
 
-.doing {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.team h3 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
-
-.our-team {
-  background-color: var(--button-background-color);
+.bottom-part {
+  background-color: var(--section-background-color);
+  height: 252px;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .footer-contact {
@@ -319,17 +388,3 @@ footer .container {
   display: block;
   margin-bottom: 9px;
 }
-
-/*.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-header .container {
-  display: flex;
-  align-items: center;
-}*/ ;
