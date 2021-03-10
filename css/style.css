@@ -61,10 +61,16 @@ nav,
   padding-bottom: 25px;
 }
 
+.section-button {
+  width: 1600px;
+  border-top: 1px solid #ececec;
+  margin: 0 auto;
+}
+
 header .container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
+  /*border-bottom: 1px solid #ececec;*/
 }
 
 .hero-section {
@@ -150,7 +156,6 @@ h2 {
   justify-content: space-between;
   width: 1170px;
   margin: 0 auto;
-  margin-bottom: 98px;
 }
 
 .team li {
@@ -164,7 +169,6 @@ h2 {
   width: 1600px;
   height: 648px;
   margin: 0 auto;
-  margin-bottom: 61px;
 }
 
 .team {
@@ -238,6 +242,7 @@ h2 {
   background: var(--button-background-color);
   cursor: pointer;
   border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .button-link:focus,
@@ -369,10 +374,7 @@ h1 {
 footer .container {
   width: 1200px;
   margin: 0 auto;
-  /*padding-left: 215px;
-  padding-right: 15px;*/
   padding-top: 60px;
-  /*padding-bottom: 25px;*/
 }
 
 .full-logo-footer {
