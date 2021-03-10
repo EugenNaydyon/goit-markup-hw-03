@@ -62,7 +62,7 @@ nav,
 }
 
 .section-button {
-  width: 1600px;
+  /*width: 1600px;*/
   border-top: 1px solid #ececec;
   margin: 0 auto;
 }
@@ -75,7 +75,7 @@ header .container {
 
 .hero-section {
   height: 600px;
-  width: 1600px;
+  /*width: 1600px;*/
   margin: 0 auto;
   background-color: var(--section-background-color);
 }
@@ -166,7 +166,7 @@ h2 {
 }
 .our-team {
   background-color: var(--button-background-color);
-  width: 1600px;
+  /*width: 1600px;*/
   height: 648px;
   margin: 0 auto;
 }
