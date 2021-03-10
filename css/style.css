@@ -362,7 +362,7 @@ h1 {
 .bottom-part {
   background-color: var(--section-background-color);
   height: 252px;
-  width: 1600px;
+  /*width: 1600px;*/
   margin: 0 auto;
 }
 
